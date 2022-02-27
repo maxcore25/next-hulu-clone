@@ -1,5 +1,5 @@
 const Nav = () => {
-  return <div>Enter</div>;
+  return <nav>Enter</nav>;
 };
 
 export default Nav;
