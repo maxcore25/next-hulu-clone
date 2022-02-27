@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header';
+import Nav from '../components/Nav';
 
 export default function Home() {
   return (
@@ -9,9 +10,7 @@ export default function Home() {
       </Head>
       <div>
         <Header />
-        <h1 className='text-3xl font-bold underline bg-orange-700'>
-          Hello world!
-        </h1>
+        <Nav />
       </div>
     </>
   );
